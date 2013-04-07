@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="dateFavorited" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Recent" representedClassName="Recent" syncable="YES">
+        <attribute name="dateLastViewed" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="word" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Recent" positionX="160" positionY="192" width="128" height="75"/>
+        <element name="Favorite" positionX="160" positionY="192" width="128" height="75"/>
+    </elements>
+</model>

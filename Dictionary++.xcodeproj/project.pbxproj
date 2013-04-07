@@ -16,6 +16,13 @@
 		034ADC471708FE290044CB17 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 034ADC461708FE290044CB17 /* Default.png */; };
 		034ADC491708FE290044CB17 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034ADC481708FE290044CB17 /* Default@2x.png */; };
 		034ADC4B1708FE290044CB17 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 034ADC4A1708FE290044CB17 /* Default-568h@2x.png */; };
+		034ADC87170955A00044CB17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034ADC85170955900044CB17 /* CoreData.framework */; };
+		03587D151710F18B00FA6267 /* JPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D101710F17600FA6267 /* JPMainViewController.m */; };
+		03587D161710F18B00FA6267 /* JPReferenceLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D121710F17600FA6267 /* JPReferenceLibraryViewController.m */; };
+		03587D171710F18B00FA6267 /* JPUserListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D141710F17600FA6267 /* JPUserListViewController.m */; };
+		03587D1D1710F1B500FA6267 /* DictionaryPlusPlus.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 03587D181710F1A800FA6267 /* DictionaryPlusPlus.xcdatamodel */; };
+		03587D1E1710F1B500FA6267 /* Favorite.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D1A1710F1A800FA6267 /* Favorite.m */; };
+		03587D1F1710F1B500FA6267 /* Recent.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D1C1710F1A800FA6267 /* Recent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,18 @@
 		034ADC461708FE290044CB17 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		034ADC481708FE290044CB17 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		034ADC4A1708FE290044CB17 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		034ADC85170955900044CB17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03587D0F1710F17600FA6267 /* JPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JPMainViewController.h; path = "View Controllers/JPMainViewController.h"; sourceTree = "<group>"; };
+		03587D101710F17600FA6267 /* JPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JPMainViewController.m; path = "View Controllers/JPMainViewController.m"; sourceTree = "<group>"; };
+		03587D111710F17600FA6267 /* JPReferenceLibraryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JPReferenceLibraryViewController.h; path = "View Controllers/JPReferenceLibraryViewController.h"; sourceTree = "<group>"; };
+		03587D121710F17600FA6267 /* JPReferenceLibraryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JPReferenceLibraryViewController.m; path = "View Controllers/JPReferenceLibraryViewController.m"; sourceTree = "<group>"; };
+		03587D131710F17600FA6267 /* JPUserListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JPUserListViewController.h; path = "View Controllers/JPUserListViewController.h"; sourceTree = "<group>"; };
+		03587D141710F17600FA6267 /* JPUserListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JPUserListViewController.m; path = "View Controllers/JPUserListViewController.m"; sourceTree = "<group>"; };
+		03587D181710F1A800FA6267 /* DictionaryPlusPlus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = DictionaryPlusPlus.xcdatamodel; path = Model/DictionaryPlusPlus.xcdatamodel; sourceTree = "<group>"; };
+		03587D191710F1A800FA6267 /* Favorite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Favorite.h; path = Model/Favorite.h; sourceTree = "<group>"; };
+		03587D1A1710F1A800FA6267 /* Favorite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Favorite.m; path = Model/Favorite.m; sourceTree = "<group>"; };
+		03587D1B1710F1A800FA6267 /* Recent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Recent.h; path = Model/Recent.h; sourceTree = "<group>"; };
+		03587D1C1710F1A800FA6267 /* Recent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Recent.m; path = Model/Recent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034ADC87170955A00044CB17 /* CoreData.framework in Frameworks */,
 				034ADC351708FE250044CB17 /* UIKit.framework in Frameworks */,
 				034ADC371708FE250044CB17 /* Foundation.framework in Frameworks */,
 				034ADC391708FE250044CB17 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +88,7 @@
 		034ADC331708FE250044CB17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				034ADC85170955900044CB17 /* CoreData.framework */,
 				034ADC341708FE250044CB17 /* UIKit.framework */,
 				034ADC361708FE250044CB17 /* Foundation.framework */,
 				034ADC381708FE250044CB17 /* CoreGraphics.framework */,
@@ -80,6 +101,8 @@
 			children = (
 				034ADC431708FE290044CB17 /* JPAppDelegate.h */,
 				034ADC441708FE290044CB17 /* JPAppDelegate.m */,
+				03587D0D1710F14100FA6267 /* View Controllers */,
+				03587D0E1710F14B00FA6267 /* Model */,
 				034ADC3B1708FE260044CB17 /* Supporting Files */,
 			);
 			path = "Dictionary++";
@@ -97,6 +120,31 @@
 				034ADC4A1708FE290044CB17 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03587D0D1710F14100FA6267 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03587D0F1710F17600FA6267 /* JPMainViewController.h */,
+				03587D101710F17600FA6267 /* JPMainViewController.m */,
+				03587D111710F17600FA6267 /* JPReferenceLibraryViewController.h */,
+				03587D121710F17600FA6267 /* JPReferenceLibraryViewController.m */,
+				03587D131710F17600FA6267 /* JPUserListViewController.h */,
+				03587D141710F17600FA6267 /* JPUserListViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		03587D0E1710F14B00FA6267 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				03587D181710F1A800FA6267 /* DictionaryPlusPlus.xcdatamodel */,
+				03587D191710F1A800FA6267 /* Favorite.h */,
+				03587D1A1710F1A800FA6267 /* Favorite.m */,
+				03587D1B1710F1A800FA6267 /* Recent.h */,
+				03587D1C1710F1A800FA6267 /* Recent.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +213,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03587D1D1710F1B500FA6267 /* DictionaryPlusPlus.xcdatamodel in Sources */,
+				03587D1E1710F1B500FA6267 /* Favorite.m in Sources */,
+				03587D1F1710F1B500FA6267 /* Recent.m in Sources */,
+				03587D151710F18B00FA6267 /* JPMainViewController.m in Sources */,
+				03587D161710F18B00FA6267 /* JPReferenceLibraryViewController.m in Sources */,
+				03587D171710F18B00FA6267 /* JPUserListViewController.m in Sources */,
 				034ADC411708FE280044CB17 /* main.m in Sources */,
 				034ADC451708FE290044CB17 /* JPAppDelegate.m in Sources */,
 			);
@@ -208,7 +262,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -232,7 +286,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -243,6 +297,7 @@
 		034ADC4F1708FE2B0044CB17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary++/Dictionary++-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary++/Dictionary++-Info.plist";
@@ -254,6 +309,7 @@
 		034ADC501708FE2B0044CB17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary++/Dictionary++-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary++/Dictionary++-Info.plist";
@@ -281,6 +337,7 @@
 				034ADC501708FE2B0044CB17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
