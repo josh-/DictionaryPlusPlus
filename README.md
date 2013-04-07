@@ -6,7 +6,6 @@ Inspired by [Dictionary+](http://www.best10apps.com/apps/dictionary,498743181/) 
 Since this app also violates the aforementioned rules, it can't be submitted to the App Store and thus you need to compile, sign and install it on your devices yourself if you want to use it.
 
 ## Screenshots
----
-![Searching for words](https://github.com/josh-/DictionaryPlusPlus/Dictionary++/Screenshots/1.png)
-![Viewing a word's definition](https://github.com/josh-/DictionaryPlusPlus/Dictionary++/Screenshots/2.png)
-![Viewing the user's favorite words](https://github.com/josh-/DictionaryPlusPlus/Dictionary++/Screenshots/3.png)
+![Searching for words](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/1.png)
+![Viewing a word's definition](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/2.png)
+![Viewing the user's favorite words](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/3.png)
