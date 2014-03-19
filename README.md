@@ -1,5 +1,4 @@
 # Dictionary++
-===
 
 Inspired by [Dictionary+](http://www.best10apps.com/apps/dictionary,498743181/) (pulled from the store for violating the [`UIReferenceLibraryViewController` terms of use](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIReferenceLibraryViewControllerClassRef/)), Dictionary++ is a simple interface to iOS's system dictionary.
 
