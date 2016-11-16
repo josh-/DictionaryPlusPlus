@@ -174,7 +174,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JP;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Josh Parnham";
 			};
 			buildConfigurationList = 034ADC2C1708FE250044CB17 /* Build configuration list for PBXProject "Dictionary++" */;
@@ -301,6 +301,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary++/Dictionary++-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary++/Dictionary++-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,6 +314,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary++/Dictionary++-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary++/Dictionary++-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
