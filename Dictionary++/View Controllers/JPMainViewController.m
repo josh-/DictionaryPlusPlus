@@ -126,7 +126,8 @@
     NSString *word = self.searchBar.text;
     NSRange range = NSMakeRange(0, word.length);
     
-    NSArray *guesses = [self.textChecker guessesForWordRange:range inString:word language:@"en_US"];
+    NSString *currentLanguage = [[NSLocale preferredLanguages] firstObject];
+    NSArray *guesses = [self.textChecker guessesForWordRange:range inString:word language:currentLanguage];
     
     for (int i = 0; i < [guesses count]; i++) {
         if ([self.ignoredWords count] > 0) {
@@ -139,7 +140,7 @@
         }
     }
     
-    NSArray *completions = [self.textChecker completionsForPartialWordRange:range inString:word language:@"en_US"];
+    NSArray *completions = [self.textChecker completionsForPartialWordRange:range inString:word language:currentLanguage];
     
     for (int i = 0; i < [completions count]; i++) {
         if ([self.ignoredWords count] > 0) {
