@@ -8,6 +8,4 @@ Licensed under the [MIT](http://opensource.org/licenses/MIT).
 
 ## Screenshots
 
-<img src="Dictionary++/Screenshots/1.png?raw=true" width="300" alt="Searching for words"/>
-<img src="Dictionary++/Screenshots/2.png?raw=true" width="300" alt="Viewing a word's definition"/>
-<img src="Dictionary++/Screenshots/3.png?raw=true" width="300" alt="Viewing the user's favorite words"/>
+<img src="Dictionary++/Screenshots/1.png?raw=true" width="300" alt="Searching for words"/> <img src="Dictionary++/Screenshots/2.png?raw=true" width="300" alt="Viewing a word's definition"/> <img src="Dictionary++/Screenshots/3.png?raw=true" width="300" alt="Viewing the user's favorite words"/>
