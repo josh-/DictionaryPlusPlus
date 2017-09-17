@@ -29,7 +29,6 @@
         self.segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"Recent", @"Favorites"]];
         self.segmentedControl.frame = CGRectMake(0, 0, 200, 30);
         [self.segmentedControl addTarget:self action:@selector(segmentedControlIndexChanged:) forControlEvents:UIControlEventValueChanged];
-        self.segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
         [self.segmentedControl setSelectedSegmentIndex:0];
         self.navigationItem.titleView = self.segmentedControl;
         
