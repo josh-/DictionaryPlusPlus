@@ -89,7 +89,7 @@
         buttonSelector = @selector(unfavoriteWord:);
     }
     
-    UIBarButtonItem *favoriteBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:buttonText style:UIBarButtonItemStyleBordered target:self action:buttonSelector];
+    UIBarButtonItem *favoriteBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:buttonText style:UIBarButtonItemStylePlain target:self action:buttonSelector];
     favoriteBarButtonItem.possibleTitles = [NSSet setWithObjects:@"Favorite", @"Unfavorite", nil];
     self.navigationItem.rightBarButtonItem = favoriteBarButtonItem;
 }
