@@ -7,6 +7,7 @@ Since this app also violates the aforementioned rules, it can't be submitted to 
 Licensed under the [MIT](http://opensource.org/licenses/MIT).
 
 ## Screenshots
-![Searching for words](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/1.png)
-![Viewing a word's definition](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/2.png)
-![Viewing the user's favorite words](https://raw.github.com/josh-/DictionaryPlusPlus/master/Dictionary++/Screenshots/3.png)
+
+<img src="Dictionary++/Screenshots/1.png?raw=true" width="300" alt="Searching for words"/>
+<img src="Dictionary++/Screenshots/2.png?raw=true" width="300" alt="Viewing a word's definition"/>
+<img src="Dictionary++/Screenshots/3.png?raw=true" width="300" alt="Viewing the user's favorite words"/>
