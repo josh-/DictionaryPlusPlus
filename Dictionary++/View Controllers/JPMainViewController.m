@@ -29,6 +29,8 @@
         
         self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
         self.searchBar.delegate = self;
+        self.searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
+        self.searchBar.spellCheckingType = UITextSpellCheckingTypeNo;
         self.navigationItem.titleView = self.searchBar;
         
         UIBarButtonItem *recentsBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(recentButtonTapped:)];
