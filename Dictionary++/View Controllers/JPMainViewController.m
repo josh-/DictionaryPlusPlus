@@ -128,30 +128,31 @@
     NSString *word = self.searchBar.text;
     NSRange range = NSMakeRange(0, word.length);
     
-    NSString *currentLanguage = [[NSLocale preferredLanguages] firstObject];
-    NSArray *guesses = [self.textChecker guessesForWordRange:range inString:word language:currentLanguage];
-    
-    for (int i = 0; i < [guesses count]; i++) {
-        if ([self.ignoredWords count] > 0) {
-            if (![self.ignoredWords containsObject:guesses[i]]) {
+    for (NSString *language in [NSLocale preferredLanguages]) {
+        NSArray *guesses = [self.textChecker guessesForWordRange:range inString:word language:language];
+        
+        for (int i = 0; i < [guesses count]; i++) {
+            if ([self.ignoredWords count] > 0) {
+                if (![self.ignoredWords containsObject:guesses[i]]) {
+                    [self.words addObject:guesses[i]];
+                }
+            }
+            else {
                 [self.words addObject:guesses[i]];
             }
         }
-        else {
-            [self.words addObject:guesses[i]];
-        }
-    }
-    
-    NSArray *completions = [self.textChecker completionsForPartialWordRange:range inString:word language:currentLanguage];
-    
-    for (int i = 0; i < [completions count]; i++) {
-        if ([self.ignoredWords count] > 0) {
-            if (![self.ignoredWords containsObject:completions[i]]) {
+        
+        NSArray *completions = [self.textChecker completionsForPartialWordRange:range inString:word language:language];
+        
+        for (int i = 0; i < [completions count]; i++) {
+            if ([self.ignoredWords count] > 0) {
+                if (![self.ignoredWords containsObject:completions[i]]) {
+                    [self.words addObject:completions[i]];
+                }
+            }
+            else {
                 [self.words addObject:completions[i]];
             }
-        }
-        else {
-            [self.words addObject:completions[i]];
         }
     }
     
