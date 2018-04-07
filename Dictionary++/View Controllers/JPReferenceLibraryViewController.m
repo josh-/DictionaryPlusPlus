@@ -37,10 +37,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     [self setUpBarButtonItems];
-    
-//    [self.view.subviews[0] setFrame:CGRectZero]; // This remove the UIReferenceLibraryViewController header
 }
 
 #pragma mark - Methods
