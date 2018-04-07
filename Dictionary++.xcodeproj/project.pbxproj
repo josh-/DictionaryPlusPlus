@@ -27,11 +27,9 @@
 
 /* Begin PBXFileReference section */
 		034567902078599F00D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		03456794207859E000D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-AU"; path = "en-AU.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		03456795207859EB00D9E3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		0345679720785A5C00D9E3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0345679920785A6B00D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		0345679A20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
 		0345679B20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		0345679C20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		034ADC311708FE250044CB17 /* Dictionary++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictionary++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,9 +237,7 @@
 		03456793207859DA00D9E3A6 /* Launch Screen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				03456794207859E000D9E3A6 /* en-AU */,
 				03456795207859EB00D9E3A6 /* Base */,
-				0345679A20785A8500D9E3A6 /* en-GB */,
 			);
 			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
