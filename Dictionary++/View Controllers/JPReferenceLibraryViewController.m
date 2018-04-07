@@ -50,7 +50,7 @@
     request.predicate = predicate;
     NSArray *wordArray = [self.managedObjectContext executeFetchRequest:request error:nil];
     
-    if ([wordArray count] == 0) { // Word itsn't already in the Recent lsit
+    if (wordArray.count == 0) { // Word isn't already in the Recent list
         Recent *recent = [[Recent alloc] initWithEntity:[NSEntityDescription entityForName:@"Recent" inManagedObjectContext:self.managedObjectContext] insertIntoManagedObjectContext:self.managedObjectContext];
         recent.word = self.term;
         recent.dateLastViewed = [NSDate date];
