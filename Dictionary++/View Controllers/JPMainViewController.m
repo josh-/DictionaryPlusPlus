@@ -27,11 +27,12 @@
     self = [super initWithStyle:style];
     if (self) {
         
-        self.searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0, 0, 320, 44)];
+        self.searchBar = [[UISearchBar alloc] init];
         self.searchBar.delegate = self;
         self.searchBar.autocorrectionType = UITextAutocorrectionTypeNo;
         self.searchBar.spellCheckingType = UITextSpellCheckingTypeNo;
         self.navigationItem.titleView = self.searchBar;
+        [self.searchBar sizeToFit];
         
         UIBarButtonItem *recentsBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(recentButtonTapped:)];
         self.navigationItem.rightBarButtonItem = recentsBarButtonItem;
