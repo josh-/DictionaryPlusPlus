@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03456791207859DA00D9E3A6 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03456793207859DA00D9E3A6 /* Launch Screen.storyboard */; };
+		0345679820785A5C00D9E3A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0345679620785A5C00D9E3A6 /* Localizable.strings */; };
 		034ADC351708FE250044CB17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034ADC341708FE250044CB17 /* UIKit.framework */; };
 		034ADC371708FE250044CB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034ADC361708FE250044CB17 /* Foundation.framework */; };
 		034ADC391708FE250044CB17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034ADC381708FE250044CB17 /* CoreGraphics.framework */; };
@@ -14,7 +16,6 @@
 		034ADC411708FE280044CB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 034ADC401708FE280044CB17 /* main.m */; };
 		034ADC451708FE290044CB17 /* JPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 034ADC441708FE290044CB17 /* JPAppDelegate.m */; };
 		034ADC87170955A00044CB17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034ADC85170955900044CB17 /* CoreData.framework */; };
-		034FA65E1F6E40D100210365 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034FA65D1F6E40D100210365 /* Launch Screen.storyboard */; };
 		034FA6601F6E431F00210365 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034FA65F1F6E431F00210365 /* Images.xcassets */; };
 		03587D151710F18B00FA6267 /* JPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D101710F17600FA6267 /* JPMainViewController.m */; };
 		03587D161710F18B00FA6267 /* JPReferenceLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03587D121710F17600FA6267 /* JPReferenceLibraryViewController.m */; };
@@ -25,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		034567902078599F00D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		03456794207859E000D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "en-AU"; path = "en-AU.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		03456795207859EB00D9E3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		0345679720785A5C00D9E3A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0345679920785A6B00D9E3A6 /* en-AU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-AU"; path = "en-AU.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0345679A20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Launch Screen.strings"; sourceTree = "<group>"; };
+		0345679B20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0345679C20785A8500D9E3A6 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		034ADC311708FE250044CB17 /* Dictionary++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictionary++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		034ADC341708FE250044CB17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		034ADC361708FE250044CB17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,7 +45,6 @@
 		034ADC431708FE290044CB17 /* JPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPAppDelegate.h; sourceTree = "<group>"; };
 		034ADC441708FE290044CB17 /* JPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPAppDelegate.m; sourceTree = "<group>"; };
 		034ADC85170955900044CB17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		034FA65D1F6E40D100210365 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		034FA65F1F6E431F00210365 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		03587D0F1710F17600FA6267 /* JPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JPMainViewController.h; path = "View Controllers/JPMainViewController.h"; sourceTree = "<group>"; };
 		03587D101710F17600FA6267 /* JPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JPMainViewController.m; path = "View Controllers/JPMainViewController.m"; sourceTree = "<group>"; };
@@ -99,6 +107,7 @@
 			children = (
 				034ADC431708FE290044CB17 /* JPAppDelegate.h */,
 				034ADC441708FE290044CB17 /* JPAppDelegate.m */,
+				0345679620785A5C00D9E3A6 /* Localizable.strings */,
 				03587D0D1710F14100FA6267 /* View Controllers */,
 				03587D0E1710F14B00FA6267 /* Model */,
 				034ADC3B1708FE260044CB17 /* Supporting Files */,
@@ -110,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				034FA65F1F6E431F00210365 /* Images.xcassets */,
-				034FA65D1F6E40D100210365 /* Launch Screen.storyboard */,
+				03456793207859DA00D9E3A6 /* Launch Screen.storyboard */,
 				034ADC3C1708FE260044CB17 /* Dictionary++-Info.plist */,
 				034ADC3D1708FE280044CB17 /* InfoPlist.strings */,
 				034ADC401708FE280044CB17 /* main.m */,
@@ -180,6 +189,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"en-AU",
+				Base,
+				"en-GB",
 			);
 			mainGroup = 034ADC281708FE250044CB17;
 			productRefGroup = 034ADC321708FE250044CB17 /* Products */;
@@ -197,8 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				034FA6601F6E431F00210365 /* Images.xcassets in Resources */,
+				0345679820785A5C00D9E3A6 /* Localizable.strings in Resources */,
 				034ADC3F1708FE280044CB17 /* InfoPlist.strings in Resources */,
-				034FA65E1F6E40D100210365 /* Launch Screen.storyboard in Resources */,
+				03456791207859DA00D9E3A6 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,10 +236,32 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		03456793207859DA00D9E3A6 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03456794207859E000D9E3A6 /* en-AU */,
+				03456795207859EB00D9E3A6 /* Base */,
+				0345679A20785A8500D9E3A6 /* en-GB */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+		0345679620785A5C00D9E3A6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0345679720785A5C00D9E3A6 /* Base */,
+				0345679920785A6B00D9E3A6 /* en-AU */,
+				0345679B20785A8500D9E3A6 /* en-GB */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		034ADC3D1708FE280044CB17 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				034ADC3E1708FE280044CB17 /* en */,
+				034567902078599F00D9E3A6 /* en-AU */,
+				0345679C20785A8500D9E3A6 /* en-GB */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -239,6 +274,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
@@ -289,6 +325,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;

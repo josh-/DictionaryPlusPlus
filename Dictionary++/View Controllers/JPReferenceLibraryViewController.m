@@ -81,11 +81,11 @@
     SEL buttonSelector;
     
     if ([wordArray count] == 0) { // Word hasn't been favorited
-        buttonText = @"Favorite";
+        buttonText = NSLocalizedString(@"Favorite", @"Bar button item for an item that has not been marked as a favorite");
         buttonSelector = @selector(favoriteWord:);
     }
     else { // Word has already been favorited
-        buttonText = @"Unfavorite";
+        buttonText = NSLocalizedString(@"Unfavorite", @"Bar button item for an item that has been marked as a favorite");
         buttonSelector = @selector(unfavoriteWord:);
     }
     

@@ -25,8 +25,8 @@
 {
     self = [super initWithStyle:UITableViewStylePlain];
     if (self) {
-        
-        self.segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"Recent", @"Favorites"]];
+        NSArray<NSString*> *segmentTitles = @[NSLocalizedString(@"Recent", @"Recent items segment control title"), NSLocalizedString(@"Favorites", @"Favorite items segment control title")];
+        self.segmentedControl = [[UISegmentedControl alloc] initWithItems:segmentTitles];
         self.segmentedControl.frame = CGRectMake(0, 0, 200, 30);
         [self.segmentedControl addTarget:self action:@selector(segmentedControlIndexChanged:) forControlEvents:UIControlEventValueChanged];
         [self.segmentedControl setSelectedSegmentIndex:0];
@@ -34,7 +34,7 @@
         
         self.wordsArray =  [[NSMutableArray alloc] init];
         
-        UIBarButtonItem *doneBarButttonItem = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(doneTapped:)];
+        UIBarButtonItem *doneBarButttonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"Done", @"Done bar button title") style:UIBarButtonItemStyleDone target:self action:@selector(doneTapped:)];
         self.navigationItem.rightBarButtonItem = doneBarButttonItem;
         
     }

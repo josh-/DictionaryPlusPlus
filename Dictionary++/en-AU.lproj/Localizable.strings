@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Dictionary++
+
+  Created by Josh Parnham on 7/4/18.
+  Copyright © 2018 Josh Parnham. All rights reserved.
+*/
+
+"Favorite" = "Favourite";
+"Unfavorite" = "Unfavourite";
+"Recent" = "Recent";
+"Favorites" = "Favourites";
+"Done" = "Done";
